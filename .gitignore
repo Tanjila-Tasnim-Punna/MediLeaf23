@@ -1,0 +1,23 @@
+# Dataset: download it from Mendeley Data, don't commit it
+data/
+*.zip
+*.HEIC
+*.heic
+
+# Model weights
+*.pt
+*.pth
+*.h5
+*.keras
+*.onnx
+*.ckpt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Secrets
+.env
